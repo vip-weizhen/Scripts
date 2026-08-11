@@ -1,6 +1,6 @@
 import { connect } from 'cloudflare:sockets';
 
-const v1 = 'proxyip.weizhen.xyz', v2 = '866961d9-a863-4202-99ce-2f4e54d35e61';
+const v1 = 'proxyip.weizhen.xyz', v2 = '';
 
 const CFG={pw:v2,chunk:64*1024,dnPack:64*1024,dnTail:1024,dnMs:1,dnQr:0,upPack:32*1024,upQMax:1024*1024,upNMax:256,maxED:8*1024,hsMax:16*1024,connMs:1600};
 const c_map=new Map,c_run=new Map,c_max=400,c_ttl=18e4;
